@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicSyntax", "BasicSyntax\BasicSyntax.csproj", "{5E038CA8-7EEE-4A72-A30A-7A2310B2D390}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if-else2", "if-else2\if-else2.csproj", "{CA533FCF-7D3C-407C-A886-51DFA6A0DCE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if-else", "if-else\if-else.csproj", "{5E038CA8-7EEE-4A72-A30A-7A2310B2D390}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA533FCF-7D3C-407C-A886-51DFA6A0DCE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA533FCF-7D3C-407C-A886-51DFA6A0DCE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA533FCF-7D3C-407C-A886-51DFA6A0DCE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA533FCF-7D3C-407C-A886-51DFA6A0DCE8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5E038CA8-7EEE-4A72-A30A-7A2310B2D390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5E038CA8-7EEE-4A72-A30A-7A2310B2D390}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E038CA8-7EEE-4A72-A30A-7A2310B2D390}.Release|Any CPU.ActiveCfg = Release|Any CPU
