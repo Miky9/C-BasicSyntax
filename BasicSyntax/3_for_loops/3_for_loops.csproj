@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CA533FCF-7D3C-407C-A886-51DFA6A0DCE8}</ProjectGuid>
+    <ProjectGuid>{367DC8C4-361B-4D0D-A1E4-44B6C1B0FF1A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>if_else2</RootNamespace>
-    <AssemblyName>if-else2</AssemblyName>
+    <RootNamespace>BasicSyntax</RootNamespace>
+    <AssemblyName>3_for_loops</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="3_for_loops.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="string_methods.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace if_else
+namespace _2_if_else
 {
     class Program
     {
@@ -147,17 +151,6 @@ namespace if_else
             //    Console.WriteLine("Neplatná volba");
             //Console.WriteLine("Děkuji za použití kalkulačky, aplikaci ukončíte libovolnou klávesou.");
             //Console.ReadKey();
-
-
-
-
-
-
-
-
-
-
-
         }
     }
 }
