@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{367DC8C4-361B-4D0D-A1E4-44B6C1B0FF1A}</ProjectGuid>
+    <ProjectGuid>{9C2EC755-BC57-4B65-8CF6-C7FDAD48A43C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BasicSyntax</RootNamespace>
-    <AssemblyName>3_for_loops</AssemblyName>
+    <RootNamespace>_4_while_loops</RootNamespace>
+    <AssemblyName>4_while_loops</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="3_for_loops.cs" />
+    <Compile Include="04_while_loops.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

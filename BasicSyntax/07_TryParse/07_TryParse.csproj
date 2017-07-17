@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{272BBE36-2579-4C9E-943E-A1F7E9F55900}</ProjectGuid>
+    <ProjectGuid>{7F7CEC8D-B919-428C-990E-1D3BF366A586}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_2_if_else</RootNamespace>
-    <AssemblyName>2_if-else</AssemblyName>
+    <RootNamespace>_07_TryParse</RootNamespace>
+    <AssemblyName>07_TryParse</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="2_if-else.cs" />
+    <Compile Include="07_TryParse.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

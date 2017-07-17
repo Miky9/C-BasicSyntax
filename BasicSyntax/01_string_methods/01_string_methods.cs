@@ -11,7 +11,6 @@ namespace _1_string_methods
         static void Main(string[] args)
         {
             ////StartsWith() EndsWith() a Contains()
-
             //string s = "Krokonosohroch";
             //Console.WriteLine(s.StartsWith("krok"));
             //Console.WriteLine(s.EndsWith("hroch"));
@@ -82,6 +81,36 @@ namespace _1_string_methods
             //string jmeno = Console.ReadLine();
             //Console.WriteLine("Délka vašeho jména je: {0}", jmeno.Length);
             //Console.ReadKey();
+
+
+
+            //string s = "Ahoj ITnetwork";
+            //Console.WriteLine(s);
+            //Console.WriteLine(s[2]);
+            //Console.ReadKey();
+
+
+
+            //First(), Last(), IndexOf()
+            //Insert()
+            //Console.WriteLine("Já bych všechny ty internety zakázala".Insert(29, "ne"));
+            //Console.ReadKey();
+
+
+
+            //Remove() 1.od x pozuce 2. počet znaků
+            Console.WriteLine("Kdo se směje naposled, ten je admin.".Remove(12, 9)); 
+            Console.ReadKey();
+
+
+
+
+
+
+
+
+
+
         }
     }
 }

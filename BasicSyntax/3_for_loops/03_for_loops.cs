@@ -68,18 +68,38 @@ namespace _3_for_loops
 
 
 
-            Console.WriteLine("Mocninátor");
-            Console.WriteLine("==========");
-            Console.WriteLine("Zadejte základ mocniny: ");
-            int a = int.Parse(Console.ReadLine());
-            Console.WriteLine("Zadejte exponent: ");
-            int n = int.Parse(Console.ReadLine());
-            int vysledek = a;
-            for (int i = 0; i < (n - 1); i++)
-                vysledek = vysledek * a;
-            Console.WriteLine("Výsledek: {0}", vysledek);
-            Console.WriteLine("Děkuji za použití mocninátoru");
+            int a, b, c;
+            Console.WriteLine("Malá násobilka:");
+            Console.WriteLine();
+            for (a = 1; a <= 10; a++)
+            {
+                for (b = 1; b <= 10; b++)
+                {
+                    c = a * b;
+                    if ((b == 1) || (a == 1))
+                        Console.BackgroundColor = ConsoleColor.Yellow;
+                    else
+                        Console.ResetColor();
+                    Console.Write(c.ToString().PadLeft(4));
+                }
+                Console.WriteLine();
+            }
             Console.ReadKey();
+
+
+
+            //Console.WriteLine("Mocninátor");
+            //Console.WriteLine("==========");
+            //Console.WriteLine("Zadejte základ mocniny: ");
+            //int a = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Zadejte exponent: ");
+            //int n = int.Parse(Console.ReadLine());
+            //int vysledek = a;
+            //for (int i = 0; i < (n - 1); i++)
+            //    vysledek = vysledek * a;
+            //Console.WriteLine("Výsledek: {0}", vysledek);
+            //Console.WriteLine("Děkuji za použití mocninátoru");
+            //Console.ReadKey();
 
 
 

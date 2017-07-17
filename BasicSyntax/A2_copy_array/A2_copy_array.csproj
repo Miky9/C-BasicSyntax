@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F0D0B5F4-9DC2-4C6F-89C7-069B9E6A21F9}</ProjectGuid>
+    <ProjectGuid>{349D9D8C-94D4-4706-A38A-2B4183D2B577}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_1_string_methods</RootNamespace>
-    <AssemblyName>1_string_methods</AssemblyName>
+    <RootNamespace>A2_copy_array</RootNamespace>
+    <AssemblyName>A2_copy_array</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="1_string_methods.cs" />
+    <Compile Include="A2_copy_array.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
