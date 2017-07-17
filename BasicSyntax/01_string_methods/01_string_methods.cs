@@ -99,15 +99,35 @@ namespace _1_string_methods
 
 
             //Remove() 1.od x pozuce 2. počet znaků
-            Console.WriteLine("Kdo se směje naposled, ten je admin.".Remove(12, 9)); 
+            //Console.WriteLine("Kdo se směje naposled, ten je admin.".Remove(12, 9)); 
+            //Console.ReadKey();
+
+            //Substring() //vrátí podřetězec 1.od x pozuce 2. počet znaků
+            //Console.WriteLine("Kdo se směje naposled, ten je admin.".Substring(13, 8));
+            //Console.ReadKey();
+
+
+
+            //CompareTo()
+            //Umožňuje porovnat dva řetězce podle abecedy. Vrací - 1 pokud je první řetězec před řetězcem v parametru, 
+            //0 pokud jsou stejné a 1 pokud je za ním:
+            //Console.WriteLine("akát".CompareTo("blýskavice"));
+            //Console.WriteLine("akát".CompareTo("akát"));
+            //Console.WriteLine("bz".CompareTo("bs"));
+            //Console.ReadKey();
+
+
+
+            //Split(), Join()
+            //..morse code
+
+
+
+            Console.WriteLine("Toto je zpětné lomítko: \\");
+            Console.WriteLine("Toto je uvozovka: \"");
+            Console.WriteLine(@"C:\Users\sdraco\Dropbox\itnetwork");
+
             Console.ReadKey();
-
-
-
-
-
-
-
 
 
 
