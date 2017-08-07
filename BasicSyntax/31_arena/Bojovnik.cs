@@ -11,27 +11,27 @@ namespace _31_arena
         /// <summary>
         /// Jméno bojovníka
         /// </summary>
-        private string jmeno;
+        protected string jmeno;
         /// <summary>
         /// Život v HP
         /// </summary>
-        private int zivot;
+        protected int zivot;
         /// <summary>
         /// Maximální zdraví
         /// </summary>
-        private int maxZivot;
+        protected int maxZivot;
         /// <summary>
         /// Útok v HP
         /// </summary>
-        private int utok;
+        protected int utok;
         /// <summary>
         /// Obrana v HP
         /// </summary>
-        private int obrana;
+        protected int obrana;
         /// <summary>
         /// Instance hrací kostky
         /// </summary>
-        private Kostka kostka;
+        protected Kostka kostka;
 
         private string zprava;
 
@@ -94,7 +94,7 @@ namespace _31_arena
             NastavZpravu(zprava);
         }
 
-        public void Utoc(Bojovnik souper)
+        public virtual void Utoc(Bojovnik souper) //virtual = lze ji v potomkovi přepsat, jinak to není možné
         {
             int uder = utok + kostka.hod();
             NastavZpravu(String.Format("{0} útočí s úderem za {1} hp", jmeno, uder));
@@ -102,7 +102,7 @@ namespace _31_arena
         }
 
 
-        private void NastavZpravu(string zprava)
+        protected void NastavZpravu(string zprava)
         {
             this.zprava = zprava;
         }

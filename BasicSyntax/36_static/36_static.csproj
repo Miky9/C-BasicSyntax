@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B7C2BB36-17FA-46EB-8D82-DB41433E4589}</ProjectGuid>
+    <ProjectGuid>{08D7B04B-D02E-4E33-A5D5-B319AADEF944}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_31_arena</RootNamespace>
-    <AssemblyName>31_arena</AssemblyName>
+    <RootNamespace>_36_static</RootNamespace>
+    <AssemblyName>36_static</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="31_arena.cs" />
-    <Compile Include="Arena.cs" />
-    <Compile Include="Bojovnik.cs" />
-    <Compile Include="Kostka.cs" />
-    <Compile Include="Mag.cs" />
+    <Compile Include="36_static.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

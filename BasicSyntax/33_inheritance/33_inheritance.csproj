@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B7C2BB36-17FA-46EB-8D82-DB41433E4589}</ProjectGuid>
+    <ProjectGuid>{D8AC35D8-3E6C-4F16-AA70-15526E226238}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_31_arena</RootNamespace>
-    <AssemblyName>31_arena</AssemblyName>
+    <RootNamespace>_33_inheritance</RootNamespace>
+    <AssemblyName>33_inheritance</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="31_arena.cs" />
-    <Compile Include="Arena.cs" />
-    <Compile Include="Bojovnik.cs" />
-    <Compile Include="Kostka.cs" />
-    <Compile Include="Mag.cs" />
+    <Compile Include="33_inheritance.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
