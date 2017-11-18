@@ -63,11 +63,25 @@ namespace _31_arena
             return (zivot > 0);
         }
 
-        public string GrafickyZivot()
+        //public string GrafickyZivot() //nahrazena Graficky ukazatel
+        //{
+        //    string s = "[";
+        //    int celkem = 20;
+        //    double pocet = Math.Round(((double)zivot / maxZivot) * celkem);
+        //    if ((pocet == 0) && (Nazivu()))
+        //        pocet = 1;
+        //    for (int i = 0; i < pocet; i++)
+        //        s += "#";
+        //    s = s.PadRight(celkem + 1);
+        //    s += "]";
+        //    return s;
+        //}
+
+        protected string GrafickyUkazatel(int aktualni, int maximalni)
         {
             string s = "[";
             int celkem = 20;
-            double pocet = Math.Round(((double)zivot / maxZivot) * celkem);
+            double pocet = Math.Round(((double)aktualni / maximalni) * celkem);
             if ((pocet == 0) && (Nazivu()))
                 pocet = 1;
             for (int i = 0; i < pocet; i++)
@@ -75,6 +89,11 @@ namespace _31_arena
             s = s.PadRight(celkem + 1);
             s += "]";
             return s;
+        }
+
+        public string GrafickyZivot()
+        {
+            return GrafickyUkazatel(zivot, maxZivot);
         }
 
         public void BranSe(int uder)

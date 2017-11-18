@@ -182,4 +182,3 @@ namespace _8_arrays
             }
         }
     }
-}

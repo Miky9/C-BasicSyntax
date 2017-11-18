@@ -33,7 +33,7 @@ namespace _14_enum
 
             Array dayArray = Enum.GetValues(typeof(Days));
             // použijeme statickou metodu třídy výčtu GetValues. Třída výčtu vrátí hodnoty (indexy) položek výčtu ve formě nějakého pole. 
-            //Třída výčtu má též metodu GetNames, která vrací textovou prezentaci položek výčtu 
+            //Třída výčtu má též metodu GetNames, která vrací textovou reprezentaci položek výčtu 
             //(pozn. : Třída výčtu je jedna z mnoha tříd, které již C# implementuje v základním objektu System.Object, 
             //což je základní třída (base class).)
             foreach (Days day2 in dayArray) 

@@ -68,23 +68,24 @@ namespace _3_for_loops
 
 
 
-            int a, b, c;
-            Console.WriteLine("Malá násobilka:");
-            Console.WriteLine();
-            for (a = 1; a <= 10; a++)
-            {
-                for (b = 1; b <= 10; b++)
-                {
-                    c = a * b;
-                    if ((b == 1) || (a == 1))
-                        Console.BackgroundColor = ConsoleColor.Yellow;
-                    else
-                        Console.ResetColor();
-                    Console.Write(c.ToString().PadLeft(4));
-                }
-                Console.WriteLine();
-            }
-            Console.ReadKey();
+            //added styling
+            //int a, b, c;
+            //Console.WriteLine("Malá násobilka:");
+            //Console.WriteLine();
+            //for (a = 1; a <= 10; a++)
+            //{
+            //    for (b = 1; b <= 10; b++)
+            //    {
+            //        c = a * b;
+            //        if ((b == 1) || (a == 1))
+            //            Console.BackgroundColor = ConsoleColor.Yellow;
+            //        else
+            //            Console.ResetColor();
+            //        Console.Write(c.ToString().PadLeft(4));
+            //    }
+            //    Console.WriteLine();
+            //}
+            //Console.ReadKey();
 
 
 
@@ -103,7 +104,19 @@ namespace _3_for_loops
 
 
 
-
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine();
+                for (int y = 1; y <= 5; y++)
+                {
+                    Console.WriteLine();
+                    for (int w = 1; w <= 5; w++)
+                        Console.Write("{0}, ", w);
+                }
+            }
+                
+                    
+            Console.ReadKey();
 
         }
     }

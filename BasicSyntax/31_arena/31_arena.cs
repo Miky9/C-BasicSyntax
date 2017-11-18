@@ -14,19 +14,19 @@ namespace _31_arena
             Kostka sestistenna = new Kostka();
             Kostka desetistenna = new Kostka(10);
 
-            Console.WriteLine(sestistenna.VratPocetSten());
-            Console.WriteLine("{0}\n",desetistenna.VratPocetSten());
+                //Console.WriteLine(sestistenna.VratPocetSten());
+                //Console.WriteLine("{0}\n",desetistenna.VratPocetSten());
    
 
-            // hod šestistěnnou
-            Console.WriteLine(sestistenna); //defaultní metoda ToString: bez override se vypíše cesta k třídě
-            for (int i = 0; i < 10; i++)
-                Console.Write(sestistenna.hod() + " ");
+                //// hod šestistěnnou
+                //Console.WriteLine(sestistenna); //defaultní metoda ToString: bez override se vypíše cesta k třídě
+                //for (int i = 0; i < 10; i++)
+                //    Console.Write(sestistenna.hod() + " ");
 
-            // hod desetistěnnou
-            Console.WriteLine("\n\n" + desetistenna);
-            for (int i = 0; i < 10; i++)
-                Console.Write(desetistenna.hod() + " ");
+                //// hod desetistěnnou
+                //Console.WriteLine("\n\n" + desetistenna);
+                //for (int i = 0; i < 10; i++)
+                //    Console.Write(desetistenna.hod() + " ");
 
             //// hra
             //Kostka kostka = new Kostka(10);
@@ -48,16 +48,15 @@ namespace _31_arena
 
             //Console.WriteLine("Život: {0}", bojovnik.GrafickyZivot());
 
-            Console.WriteLine("\n\n");
 
 
            // vytvoření objektů
            Kostka kostka = new Kostka(10);
             Bojovnik zalgoren = new Bojovnik("Zalgoren", 100, 20, 10, kostka);
-            Bojovnik shadow = new Bojovnik("Shadow", 60, 18, 15, kostka);
+            //Bojovnik shadow = new Bojovnik("Shadow", 60, 18, 15, kostka);
             //Bojovnik gandalf = new Mag("Gandalf", 60, 15, 12, kostka, 30, 45);
             Mag gandalf = new Mag("Gandalf", 60, 15, 12, kostka, 30, 45);
-            Arena arena = new Arena(zalgoren, shadow, kostka);
+            Arena arena = new Arena(zalgoren, gandalf, kostka);
             
             // zápas
             arena.Zapas();

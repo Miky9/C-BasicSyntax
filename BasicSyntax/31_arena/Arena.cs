@@ -20,13 +20,24 @@ namespace _31_arena
             this.kostka = kostka;
         }
 
+        //private void Vykresli() //staré vykresli
+        //{
+        //    Console.Clear();
+        //    Console.WriteLine("-------------- Aréna -------------- \n");
+        //    Console.WriteLine("Zdraví bojovníků: \n");
+        //    Console.WriteLine("{0} {1}", bojovnik1, bojovnik1.GrafickyZivot());
+        //    Console.WriteLine("{0} {1}", bojovnik2, bojovnik2.GrafickyZivot());
+        //}
+
         private void Vykresli()
         {
             Console.Clear();
             Console.WriteLine("-------------- Aréna -------------- \n");
-            Console.WriteLine("Zdraví bojovníků: \n");
-            Console.WriteLine("{0} {1}", bojovnik1, bojovnik1.GrafickyZivot());
-            Console.WriteLine("{0} {1}", bojovnik2, bojovnik2.GrafickyZivot());
+            Console.WriteLine("Bojovníci: \n");
+            VypisBojovnika(bojovnik1);
+            Console.WriteLine();
+            VypisBojovnika(bojovnik2);
+            Console.WriteLine();
         }
 
         private void VypisZpravu(string zprava)
@@ -69,7 +80,17 @@ namespace _31_arena
             }
         }
 
-
+        private void VypisBojovnika(Bojovnik b)
+        {
+            Console.WriteLine(b);
+            Console.Write("Život: ");
+            Console.WriteLine(b.GrafickyZivot());
+            if (b is Mag)
+            {
+                Console.Write("Mana:  ");
+                Console.WriteLine(((Mag)b).GrafickaMana());
+            }
+        }
 
     }
 }

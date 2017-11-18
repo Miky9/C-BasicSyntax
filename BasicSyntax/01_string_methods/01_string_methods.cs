@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _1_string_methods
 {
@@ -17,7 +13,6 @@ namespace _1_string_methods
             //Console.WriteLine(s.Contains("nos"));
             //Console.WriteLine(s.Contains("roh"));
             //Console.ReadKey();
-
 
 
             ////ToUpper() a ToLower()
@@ -38,7 +33,7 @@ namespace _1_string_methods
 
             ////Trim(), TrimStart() a StrimEnd()
 
-            //Console.WriteLine("Zadejte číslo:");
+            //Console.WriteLine("Zadejte text:");
             //string s = Console.ReadLine();
             //Console.WriteLine("Zadal jste text: " + s);
             //Console.WriteLine("Text po funkci trim: " + s.Trim());
@@ -98,11 +93,11 @@ namespace _1_string_methods
 
 
 
-            //Remove() 1.od x pozuce 2. počet znaků
+            //Remove() 1.od x pozice 2. počet znaků
             //Console.WriteLine("Kdo se směje naposled, ten je admin.".Remove(12, 9)); 
             //Console.ReadKey();
 
-            //Substring() //vrátí podřetězec 1.od x pozuce 2. počet znaků
+            //Substring() //vrátí podřetězec 1.od x pozice 2. počet znaků
             //Console.WriteLine("Kdo se směje naposled, ten je admin.".Substring(13, 8));
             //Console.ReadKey();
 

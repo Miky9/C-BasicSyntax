@@ -19,12 +19,50 @@ namespace _31_arena
             this.magickyUtok = magickyUtok;
         }
 
-        public override void Utoc(Bojovnik souper) //override = přepisování zděděné metody
+        //public override void Utoc(Bojovnik souper) //override = přepisování zděděné metody
+        //{
+        //    int uder = 0;
+        //    // Mana není naplněna
+        //    if (mana < maxMana)
+        //    {
+        //        mana += 10;
+        //        if (mana > maxMana)
+        //            mana = maxMana;
+        //        uder = utok + kostka.hod();
+        //        NastavZpravu(String.Format("{0} útočí s úderem za {1} hp", jmeno, uder));
+        //    }
+        //    else // Magický útok
+        //    {
+        //        uder = magickyUtok + kostka.hod();
+        //        NastavZpravu(String.Format("{0} použil magii za {1} hp", jmeno, uder));
+        //        mana = 0;
+        //    }
+        //    souper.BranSe(uder);
+        //}
 
+        public override void Utoc(Bojovnik souper) ///použití base - volání na předkovi
+        {
+            // Mana není naplněna
+            if (mana < maxMana)
+            {
+                mana += 10;
+                if (mana > maxMana)
+                    mana = maxMana;
+                base.Utoc(souper);
+            }
+            else // Magický útok
+            {
+                int uder = magickyUtok + kostka.hod();
+                NastavZpravu(String.Format("{0} použil magii za {1} hp", jmeno, uder));
+                souper.BranSe(uder);
+                mana = 0;
+            }
+        }
 
-
-
-
+        public string GrafickaMana()
+        {
+            return GrafickyUkazatel(mana, maxMana);
+        }
 
     }
 
@@ -33,4 +71,4 @@ namespace _31_arena
 
 
 
-}
+    }
